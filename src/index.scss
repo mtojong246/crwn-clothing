@@ -1,7 +1,12 @@
+@font-face {
+  font-family: 'Open Sans Condensed Light';
+  src: local('Open Sans Condensed Light'), url(./fonts/OpenSans-CondLight.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   padding: 20px 40px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Condensed Light', 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
